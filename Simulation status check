@@ -1,0 +1,60 @@
+rank(-ts_delta(close, 2))
+Industry 21 0.01
+Fitness 0.91
+
+rank(-ts_delta(close, 1))
+Industry 21 0.01
+Fitness 0.96rank(ts_delay(close, 2) - ts_regression(close, vwap, 35, lag=0, rettype= 3))
+0.98   
+
+rank(ts_delay(close, 3) - ts_regression(close, vwap, 25, lag=0, rettype= 3))
+0.98  32 0.08
+
+rank(ts_delay(close, 1) - ts_regression(close, vwap, 24, lag=0, rettype= 3))
+Pass err  32 0.08
+
+rank(ts_delay(close, 1) - ts_regression(close, vwap, 21, lag=0, rettype= 3))
+pass err 40 0.04
+
+rank(ts_delay(close, 1) - ts_regression(close, vwap, 18, lag=0, rettype= 3))
+pass err pass err 
+
+ts_sum(sign(ts_delta(close, 1)), 4) == -4 ? 0 : rank(-ts_delta(close, 2))
+Fitness 0.76 
+
+
+ts_sum(sign(ts_delta(close, 1)), 14) == -14 ? 0 : rank(-ts_delta(close, 1))
+Fitness 0.96 10 0.01
+
+ts_sum(sign(ts_delta(close, 1)), 16) == -16 ? 0 : rank(-ts_delta(close, 1))
+Pass err 35 0.035
+
+-ts_delta(close, 2)
+Pass err 0.009  14 
+Pass err  "     18
+34 0.017
+38 0.016
+Sector
+
+
+rank(-ts_delta(close, 2))
+Industry Fitness 0.95   10 0.01
+
+rank(-ts_delta(high, 2))
+Subindustry 10 0.01  Fitness 0.89
+Industry 0.90
+
+rank(ts_delay(close, 2) - ts_regression(close, vwap, 60, lag=0, rettype=3))
+Industry 0.84 Fitness   10 0.16
+
+
+rank(ts_delay(close, 1) - ts_regression(close, vwap, 30, lag=0, rettype=3))
+NEUTRALIZATION
+Subindustry
+DECAY
+18
+TRUNCATION
+0.04
+
+rank(ts_delay(close, 1) - ts_regression(close, vwap, 18, lag=0, rettype=3))
+Pass err  29 0.03 Subindustry
