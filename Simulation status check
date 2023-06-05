@@ -58,3 +58,47 @@ TRUNCATION
 
 rank(ts_delay(close, 1) - ts_regression(close, vwap, 18, lag=0, rettype=3))
 Pass err  29 0.03 Subindustry
+
+WORLD QUAINT BRAIN
+
+-rank(ts_delta(close,3)) * rank(volume / ts_sum(volume, 3) / 10)
+*** First Pass***
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 1)) : rank(-ts_delta(close, 3)) 
+***Fitness of 0.92***
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 3)) : rank(-ts_delta(close, 8))
+***Fitness of 0.95***
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 2)) : rank(-ts_delta(close, 8))
+***Fitness of 0.98***
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 2)) : rank(-ts_delta(close, 7))
+***Fitness of 0.98***
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 1)) : rank(-ts_delta(close, 7))
+***Fitness of 0.99***
+
+
+volume > adv20 ? 1 * rank(-ts_delta(close, 1)) : rank(-ts_delta(close, 3)
+***Passes with corellation error***)
+
+-rank(ts_delta(close,3)) * rank(volume / ts_sum(volume, 3) / 29)
+***Passes with corellation error***
+
+rank(ts_delta(close,3)) * -rank(volume / ts_sum(volume, 3) / 36)
+***Passes with corellation error***
+
+rank(ts_delay(close, 2) - ts_regression(close, vwap, 60, lag=0, rettype=3))
+***0.83 Fitness decay 11***
+
+rank(ts_delay(close, 2) - ts_regression(close, vwap, 3, lag=0, rettype=3))
+***0.95 Fitness decay 40 0.04***
+
+close>ts_sum(close, 20) / 20 ? 1.5 * rank(-ts_delta(close, 2)) : rank(-ts_delta(close, 2))
+***0.94 Fitness***
+
+
+rank(-ts_delta(close, 2))
+
+trunc 0.01 na 6
