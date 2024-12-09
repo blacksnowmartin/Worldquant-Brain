@@ -29,3 +29,5 @@ A detailed installation guide - https://www.jetbrains.com/help/pycharm/installat
 
 Apart from the IDEs you might need some specific packages which we have recommended in the requirements.txt file
 A simple 'pip install -r requirements.txt' in the command line will install these packages for you.
+
+Reviewed by Blacksnow Martin 
