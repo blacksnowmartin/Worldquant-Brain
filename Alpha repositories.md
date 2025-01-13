@@ -6,3 +6,5 @@ https://support.worldquantbrain.com/hc/en-us/articles/20786107171351-Alpha-Creat
 GitHub
 https://github.com › World...
 wessamsw/WorldQuant-Data-Science-Program
+
+Special thanks to wessamsw 😊😊😊
