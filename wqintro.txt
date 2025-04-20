@@ -1,45 +1,45 @@
-WorldQuant's BRAIN platform is designed for users to develop and test quantitative trading strategies, known as "alphas." These alphas are mathematical models that aim to predict the future price movements of financial instruments. While the specific formulas and strategies are proprietary and confidential, here are some general categories and examples of alphas that could be developed on the BRAIN platform:
+WorldQuant's BRAIN platform is designed for users to develop and test quantitative trading strategies, known as "alphas." These alphas are mathematical models that aim to predict the future price movements of financial instruments. While the specific formulas and strategies are proprietary and confidential, here are some general categories and examples of alphas that can be developed on the BRAIN platform:
 
 1. Statistical Arbitrage Alphas:
 
-Mean Reversion: Identify assets whose prices have deviated significantly from their historical averages and bet on them reverting back.
-Pairs Trading: Exploit temporary price discrepancies between two historically correlated assets.
-Volatility Trading: Capitalize on predictions of future volatility levels.
+- Mean Reversion: Identifies assets whose prices have deviated significantly from their historical averages and bets on them reverting back.
+- Pairs Trading: Exploits temporary price discrepancies between two historically correlated assets.
+- Volatility Trading: Capitalizes on predictions of future volatility levels.
 
 2. Fundamental Alphas:
 
-Value Investing: Identify undervalued companies based on financial ratios like price-to-earnings or price-to-book.
-Growth Investing: Predict future earnings growth based on factors like revenue growth, market share, or innovation.
-Quality Investing: Focus on companies with strong balance sheets, high profitability, and stable earnings.
+- Value Investing: Identifies undervalued companies based on financial ratios like price-to-earnings or price-to-book.
+- Growth Investing: Predicts future earnings growth based on factors like revenue growth, market share, or innovation.
+- Quality Investing: Focuses on companies with strong balance sheets, high profitability, and stable earnings.
 
 3. Technical Analysis Alphas:
 
-Trend Following: Identify and ride the direction of established price trends.
-Momentum Strategies: Capitalize on the continuation of recent price movements.
-Pattern Recognition: Identify and exploit recurring chart patterns.
+- Trend Following: Identifies and rides the direction of established price trends.
+- Momentum Strategies: Capitalizes on the continuation of recent price movements.
+- Pattern Recognition: Identifies and exploits recurring chart patterns.
 
 4. Sentiment Analysis Alphas:
 
-News Sentiment: Analyze news articles and social media to gauge investor sentiment and predict price movements.
-Social Media Trends: Identify trending topics and discussions on social media platforms to predict changes in asset prices.
+- News Sentiment: Analyzes news articles and social media to gauge investor sentiment and predict price movements.
+- Social Media Trends: Identifies trending topics and discussions on social media platforms to predict changes in asset prices.
 
 5. Event-Driven Alphas:
 
-Mergers and Acquisitions: Predict price movements of companies involved in mergers or acquisitions.
-Earnings Announcements: Anticipate the market's reaction to earnings surprises.
-Regulatory Changes: Predict the impact of regulatory changes on specific industries or assets.
+- Mergers and Acquisitions: Predicts price movements of companies involved in mergers or acquisitions.
+- Earnings Announcements: Anticipates the market's reaction to earnings surprises.
+- Regulatory Changes: Predicts the impact of regulatory changes on specific industries or assets.
 
 Important Notes:
 
-The BRAIN platform provides a wide range of data fields, operators, and tools to build and test these alphas.
-Users are encouraged to be creative and innovative in developing their own unique alpha strategies.
-WorldQuant emphasizes the importance of risk management and encourages users to thoroughly backtest their alphas before submitting them.
-The platform also offers opportunities for users to learn from each other and collaborate on research projects.
+- The BRAIN platform provides a wide range of data fields, operators, and tools to build and test these alphas.
+- Users are encouraged to be creative and innovative in developing their own unique alpha strategies.
+- WorldQuant emphasizes the importance of risk management and encourages users to thoroughly backtest their alphas before submitting them.
+- The platform also offers opportunities for users to learn from each other and collaborate on research projects.
 
 Disclaimer:
 
-The information provided above is for general knowledge and educational purposes only, and does not constitute financial advice.
+The information provided above is for general knowledge and educational purposes only and does not constitute financial advice.
 Investing in financial markets involves risks, and you could lose money.
 Past performance is not indicative of future results.
 
-Scraped from the WorldQuant website. Please note that the information provided is for general knowledge and educational purposes only, and does not constitute financial advice. Investing in financial markets involves risks, and you could lose money.
+Scraped from the WorldQuant website. Please note that the information provided is for general knowledge and educational purposes only and does not constitute financial advice. Investing in financial markets involves risks, and you could lose money.
