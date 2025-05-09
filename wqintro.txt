@@ -1,4 +1,4 @@
-WorldQuant's BRAIN platform is designed for users to develop and test quantitative trading strategies, known as "alphas." These alphas are mathematical models that aim to predict the future price movements of financial instruments. While the specific formulas and strategies are proprietary and confidential, here are some general categories and examples of alphas that can be developed on the BRAIN platform:
+O90WorldQuant's BRAIN platform is designed for users to develop and test quantitative trading strategies, known as "alphas." These alphas are mathematical models that aim to predict the future price movements of financial instruments. While the specific formulas and strategies are proprietary and confidential, here are some general categories and examples of alphas that can be developed on the BRAIN platform:
 
 1. Statistical Arbitrage Alphas:
 
@@ -43,4 +43,4 @@ Investing in financial markets involves risks, and you could lose money.
 Past performance is not indicative of future results.
 
 Scraped from the WorldQuant website. Please note that the information provided is for general knowledge and educational purposes only and does not constitute financial advice. 
-# Investing in financial markets involves risks, and you could lose money.
+Investing in financial markets involves risks, and you could lose money.
